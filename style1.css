@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: pink;
+  margin: 0;
+  font-family: Arial;
+}
+
+.container {
+  text-align: center;
+  font-family: 'bush script mt', cursive;
+}
+
+h1{
+    color: rgb(255, 20, 147);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+button{
+    background-color: rgb(255, 20, 147);
+    color: white;
+    font-family: 'bush script mt', cursive;
+}
+button:hover {
+    background-color: crimson;
+    color: white;
+    transform: scale(1.1);
+}
